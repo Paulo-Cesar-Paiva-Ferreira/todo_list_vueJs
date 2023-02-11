@@ -71,7 +71,7 @@ const cadastraTarefa = () => {
         <div class="col-md-2">
           <select @change="evento => estado.filtro = evento.target.value" class="form-control">
             <option value="todas">Todas tarefas</option>
-            <option value="pendentes">Pendesntes</option>
+            <option value="pendentes">Pendentes</option>
             <option value="finalizadas">Finalizadas</option>
           </select>
         </div>
